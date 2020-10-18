@@ -1,0 +1,16 @@
+.landingPage{
+    background-image: url();
+}
+
+.circles{
+    position: absolute;
+    right: 35px;
+    left:10px;
+    top: 100px;
+    bottom: 20px;
+    border-radius: 260px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#3B4696 , #90b2ce );
+    z-index: -1;
+}

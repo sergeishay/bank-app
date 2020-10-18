@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+  color: #333d83;
+
+  background: linear-gradient(285deg, #727fdd 5%, #5766da 10%, #9ea8f1 20% , #ffffff38 35% );
+}
+.allTransction{
+display: grid;
+align-items:center;
+width: 100vw;
+}
+
+.inputForm{
+
+  display: flex;
+  background-color: #e0ece4;
+  border-radius: 15px;
+  border: #3B4696 solid 1px ;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  width: 12rem;
+  padding-bottom: 20px;
+}
+.inputHolder{
+  display: grid;
+  margin-top:20px;
+  width:65%;
+  justify-self: center;justify-content: center;justify-items: center;
+  align-self: center; align-items: center;align-content: center;
+}
+input{
+  display: flex;
+  width: 75%;
+  border-radius: 5px;
+  border: 0.8px solid #E0F1F0;
+  margin: 3px;
+}
+.btn{
+  margin-top: 25px ;
+}
+.App-header {
+  background-color: #3B4696;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-shadow: black 1px 1px 1px 1px;
+}
+a{
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.delete{
+  width: 25%;
+  font-size: 1.3vw;
+  justify-self: center;
+  align-self: center;
+}
+.deletebtn{
+  justify-content: center;
+  align-content: center;
+
+}
+#Withdraw{
+  border-radius: 4px;
+  background-color: rgba(252, 113, 113, 0.616);
+  border:0.5px solid #3B4696;
+  margin-left: 0.2vw;
+}
+#Deposit{
+  border-radius: 4px;
+  background-color: rgba(170, 238, 160, 0.616);
+  border:0.5px solid #3B4696 ;
+  margin-right: 0.2vw;
+  margin-left: 0.2vw;
+
+}
+
+#main-links{
+  background-color:#3B4696;
+  padding: 20px;
+  margin-bottom: 3vh;
+  box-shadow: #333d83;
+}
+
+.transctionDisplay{
+  display: grid;
+  grid-template-columns: 18fr;
+  justify-self: center;justify-content: center;justify-items: center;
+  align-self: center; align-items: center;align-content: center;
+  width: 100vw;
+  border: none;
+
+}
+.transactionHolder{
+  display: grid;
+  border: none;
+  width: 80%;
+  background-color: #ffffff;
+  
+}
+.categoryHolder{
+  display: grid;
+  border: none;
+  justify-self: center;
+  align-self: center; align-items: center;
+  width: 80%;
+  color: white;
+  background-color:#3B4696 ;
+}
+table{
+  border-bottom:#3B4696 solid 0.35px;
+  padding: 1px;
+}
+
+tr{
+  display: grid;
+  grid-template-columns: repeat(4 , 9fr );
+  width: 100%;
+
+}
+h1{
+  margin:2vh ;
+  font-size: 4vw;
+}
+h2{
+  margin: 2vh;
+  font-size: 3vw;
+
+}
+.categoryOp{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 117, 93);
+}
+
+.landingPage{
+  display: grid;
+  grid-template-columns: 24fr;
+  justify-items: center;
+}
+
+.red{
+  color: rgba(253, 0, 0, 0.966);
+}
+.green{
+  color: rgb(34, 255, 0);
+}
+.buttonToTransaction{
+  align-content: center;align-self: center;
+  justify-self: center;justify-items: center;
+}
+.btnLink{
+  font-size:0.875em;
+  display:block;
+  margin-top:3vh;
+  padding:2vw;
+  width:100%;
+  border-radius: 10px;
+  background-color: #3B4696;
+  color:white;
+}
+
+
+
+.chartBar{
+  justify-content: center;align-items: center;
+  width:30vw;
+  height: 30vh;
+}
+
+.divCategoty{
+  background-color: thistle;
+  border-radius: 45px;
+  text-align: center;
+  align-content: center;align-self: center;align-items: center;
+  margin : 2vw 2vh;
+}
+.singleCategory{
+  display: inline-block;
+  width: 30vw;
+  height: 30vh;
+} 
+.imgCategory{
+  width:40%;
+  height:40%;
+  position: relative;
+  /* top:-2.5vh; */
+  /* right:-5.5vw; */
+  background-color: rgb(255, 209, 255);
+  border-radius: 45px;
+  padding: 3vw;
+  box-shadow: rgb(192, 117, 192) 1px 1px 1px;
+}
+.catDisign{
+  margin: 0;
+  color: white;
+  text-shadow: black ;
+}
+.removeBtn{
+  width:100%;
+  align-self: center;
+}
+.selector{
+  border-radius: 35px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top:4px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.single{
+  width: 20vw;
+  display: inline-block;
+  justify-items: center;
+  justify-self: center;
+  justify-content:center ;
+  align-items: center;
+}
+.singleTable{
+  border:#3B4696 solid 0.35px;
+  width:100%
+}
+.singleTableTr{
+  margin-left:5vw;
+  margin-right: 5vh;
+}
